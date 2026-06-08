@@ -1,0 +1,6 @@
+login_successfull_keeper = "Login Successfull :)"
+employee_login_message = "Hello Keeper\nPlease Login:)\n"
+login_unsuccessfull_keeper = "Login Unsuccessfull :(\nPlease try to login again."
+get_customer_name = "Enter the customer's name: "
+get_customer_number = "Enter the contact number: "
+get_product_name = "Enter product name: "

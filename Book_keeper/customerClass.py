@@ -6,4 +6,6 @@ class Customer:
 
     def __str__(self):
         return "The customer name is {}\nPhone number is {}".format(self.__name, self.__phoneNumber)
+    
+    
 
