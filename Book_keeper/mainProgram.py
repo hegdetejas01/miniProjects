@@ -18,19 +18,8 @@ if loggedIn:
 
     inputValue = employee.createMainMenu(employee.getData("name"))
     if inputValue == 1:
+        k.makeBill()
 
-        productList = []
-        isProductPresent = True
-        name = input(p.get_customer_name)
-        number = input(p.get_customer_number)
-        customer = c.Customer(name,number)
-        
-        while isProductPresent:
-            productName = input(p.get_product_name)
-            productList.append(productName)
-            isProductPresent = int(input("Press 1 to add new product"))
-
-        print(productList)
 
     elif inputValue == 2:
         pass

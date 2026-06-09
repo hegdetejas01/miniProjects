@@ -1,3 +1,6 @@
+import printStatement as p
+import customerClass as c
+
 class Keeper:
 
     __counter = 0
@@ -57,4 +60,15 @@ class Keeper:
         elif parameter == "email":
             return self.__email
 
+    def makeBill(self):
 
+        productPurchaseList = []
+        isProductPresent = True
+        name = input(p.get_customer_name)
+        number = input(p.get_customer_number)
+        customer = c.Customer(name,number)
+        
+        while isProductPresent:
+            pass
+
+        print(productPurchaseList)
