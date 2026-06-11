@@ -1,7 +1,7 @@
 import printStatement as p
 
 class Products:
-
+    
     def __init__(self,itemName,amount):
         self.__itemName = itemName
         self.__amount = amount
